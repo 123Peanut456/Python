@@ -2,6 +2,7 @@ ROT = "\033[91m"
 GRUEN = "\033[92m"
 RESET = "\033[0m"
 
+
 def color(symbol):
     if symbol == "X":
         return ROT + symbol + RESET
